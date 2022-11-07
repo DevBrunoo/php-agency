@@ -1,5 +1,5 @@
 
-<h1>Web Appp</h1>
+<h1>Web App</h1>
 <br>
 <p>
 Web Application with front end - using html and css technologies, in the back end used PHP. Responsive web application that adjusts to the needs of the screen or machine it is running.
