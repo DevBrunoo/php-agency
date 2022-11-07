@@ -43,11 +43,26 @@ section{
    padding:5rem 10%;
 }
 
+
+
 @keyframes fadeIn {
    0%{
       transform: scale(0);
       opacity: 0;
    }
+}
+
+
+/* Imagem de inpiracao */
+.abou-img{
+   height: 700px;
+   width: 500px;
+}
+/* logo effects */
+.titulo_home:hover{
+   font-size:50px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border-top:1px;
 }
 
 /* Progress barra */

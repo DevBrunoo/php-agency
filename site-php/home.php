@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Guia antiprocrastinação.</title>
+   <title>Operação shutdown</title>
 
    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
@@ -14,12 +14,21 @@
 
 </head>
 <body>
+   <style>
+      .titulo_home:hover{
+         font-size:50px;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         border-top:1px;
+      }
+   </style>
    
 
 <section class="header">
+  <div>
+  <a href="home.php" class="logo" style="font-size: 33px;"
+    ><h1 class="titulo_home">Anti-procrastination operation</h1></a>
 
-   <a href="home.php" class="logo" style="font-size: 40px;"
-    >Guia antiprocrastinação</a>
+    
    <div id="menu-btn" class="fas fa-bars"></div>
 
 </section>
@@ -32,18 +41,17 @@
 
       <div class="swiper-wrapper">
 
-         <div class="swiper-slide slide" style="background:url(images/home-slide-1.jpg) no-repeat">
+         <div class="swiper-slide slide" style="background:url(images/cad1.jpg) no-repeat">
             <div class="content">
-               <h3 style="font-size: 33px">o seu caminho mais rápido para alcançar os seus objetivos! </h3>
-               <a href="package.php" class="btn">>>>QUERO PEGAR ESSE CAMINHO<<<</a>
+               <h3 style="font-size: 33px">Your fastest way to reach your goals! </h3>
+               <a href="package.php" class="btn">>>>I WANT TO TAKE THIS WAY<<<</a>
             </div>
          </div>
 
-         <div class="swiper-slide slide" style="background:url(images/home-slide-2.jpg) no-repeat">
+         <div class="swiper-slide slide" style="background:url(images/work.jpg) no-repeat">
             <div class="content">
-               <h3 style="font-size: 33px">Acabo com toda procrastinação, síndrome do impostor e auto sabotagem.
-Tudo para você alcançar suas metas, aumentar o seu foco e acabar com o desânimo!</h3>
-               <a href="package.php" class="btn">>>>QUERO PEGAR ESSE CAMINHO<<<</a>
+               <h3 style="font-size: 33px">Everything for you to reach your goals, increase your focus and end the discouragement!</h3>
+               <a href="package.php" class="btn">>>>I WANT TO TAKE THIS WAY<<<</a>
             </div>
          </div>
  
@@ -60,16 +68,15 @@ Tudo para você alcançar suas metas, aumentar o seu foco e acabar com o desâni
 
 <section class="services">
 
-   <h1 class="heading-title"> O que fazemos por você </h1>
+   <h1 class="heading-title">What we do for you </h1>
  <div>
  <p style="font-size:50px" style="text-align: center;">
-       Nós fomos criados com uma coisa em mente: você.
-      </p>
+ We were created with one thing in mind: You.      </p>
 
 <br><br>
 
  <p class="copymenu2" style="font-size:30px" style="text-align: center;">
- O Mente Guia está aqui para te direcionar em toda sua jornada de autocuidado, desbloqueando as suas crenças limitantes através de ferramentas cientificamente validadas, tudo para você vencer o desânimo e a falta de foco, transformando-se em uma pessoa produtiva e consistente.
+ The Mind Guide is here to guide you throughout your self-care journey, unlocking your limiting beliefs through scientifically validated tools, all for you to overcome discouragement and lack of focus, transforming yourself into a productive and consistent person.
  </p>
 
  <br><br> <!-- br e quebra de linha -->
@@ -79,27 +86,27 @@ Tudo para você alcançar suas metas, aumentar o seu foco e acabar com o desâni
 
       <div class="box">
          <img src="images/icon-11.png" alt="">
-         <h3>Melhore sua gestão de tempo </h3>
+         <h3>Improve your time management </h3>
       </div>
 
       <div class="box">
          <img src="images/icon-2.png" alt="">
-         <h3>Supere a Procrastinação</h3>
+         <h3>Overcome Procrastination</h3>
       </div>
 
       <div class="box">
          <img src="images/icon-3.png" alt="">
-         <h3>Tornar-se mais produtivo</h3>
+         <h3>Become more productive</h3>
       </div>
 
       <div class="box">
          <img src="images/foco-5.png" alt="">
-         <h3>Aumente seu foco</h3>
+         <h3>Increase your focus</h3>
       </div>
 
       <div class="box">
          <img src="images/icon-6.png" alt="">
-         <h3>Estabeleça uma rotina campe</h3>
+         <h3>Establish a routine</h3>
       </div>
 
    </div>
@@ -110,46 +117,49 @@ Tudo para você alcançar suas metas, aumentar o seu foco e acabar com o desâni
 <section class="home-about">
 
    <div class="image">
-      <img src="images/about-img.jpg" alt="">
+      <img  src="images/inspiration.jpeg" alt="">
    </div>
 
    <div class="content">
-      <h3>O QUE SÓ NÓS FAZEMOS:</h3>
+      <h3 class="home_about" 
+      style="font-size: 37px; margin-left: 50px;">WHAT ONLY WE DO:</h3>
       <ul>
-         <li style="font-size: 14px;">
-            Somos os únicos no Brasil a utilizar a Terapia Cognitiva Comportamental moderna de forma interativa através 87 atividades sequenciais.
-         </li>
+         <li class="home_about" 
+         style="font-size: 24px; margin-left: 50px;">
+         We are the only ones in Brazil to use modern Cognitive Behavioral Therapy interactively through 87 sequential activities.         </li>
       </ul>
+      <br>
       <ul>
-      <li style="font-size: 14px;">
-         O Guia é capaz de aprofundar nas causas de seus problemas e fornecer estratégias personalizadas que ajudaram você a seguir no caminho certo para se sentir mais motivado e produtivo. 
-         </li>
+      <li class="home_about" 
+      style="font-size: 24px; margin-left: 50px;">
+      The Guide is able to delve into the causes of your problems and provide you with personalized strategies that will help you get on the right path to feeling more motivated and productive.         </li>
       </ul>
+      <br>
       <ul>
-      <li style="font-size: 14px;">
-         Atividades simples e diárias que levam apenas 10-20 minutos cada, e fazem com que você mude hábitos rapidamente!
-         </li>
+      <li class="home_about" 
+      style="font-size: 24px; margin-left: 50px;">
+      Simple, everyday activities that only take 10-20 minutes each, and get you to change habits quickly!         </li>
       </ul>
+      <br>
    </div>
 
 </section>
 
 <section>
 
-
-<h1 style="font-size:44px" class="heading-title"> A nossa mágica:
-Foco, produtividade e equilíbrio
+<h1 style="font-size:44px" class="heading-title"> 
+Our magic:
+Focus, productivity and balance
  </h1>
  <div>
  <p style="font-size:22px" style="text-align: center;">
- Nós fazemos com que as pessoas se tornem mais produtivas, melhorem a sua motivação diária, e adotem novos hábitos para realizar ações que as levem a atingir seu pleno potencial e felicidade a longo prazo.
-    
+ We make people more productive, improve their daily motivation, and adopt new habits to take actions that lead them to reach their full potential and long-term happiness.    
 </p>
 
 <br><br>
 
  <p class="copymenu2" style="font-size:30px" style="text-align: center;">
- Mas isso só é possível por três motivos: 
+ But this is only possible for three reasons:
   </p>
 
  <br><br> <!-- br e quebra de linha -->
@@ -159,7 +169,9 @@ Foco, produtividade e equilíbrio
 
 <section class="home-packages">
 
-   <h1 class="heading-title"> Pessoas reais, historias reais </h1>
+   <h1 class="heading-title"> 
+   Real people, real stories
+   </h1>
    <br>
    <br>
 
@@ -173,22 +185,22 @@ Foco, produtividade e equilíbrio
          </div>
          <div class="content">
             <h3>Luciana</h3>
-            <p>Fez muito sentido pra mim. Toda
+            <p>
+            It made a lot of sense to me. All
 
-a modulação com as recompensas foi uma virada de chave!!! Gostando demais até aqui estou sentindo que estou no caminho. Gratidão!
-</p>
+modulation with rewards was a key change!!! Enjoying it so far I'm feeling like I'm on my way. Gratitude!
+            </p>
          </div>
       </div>
 
       <div class="box">
          <div class="image">
-            <img src="images/pedro.jpg" alt="">
+            <img src="images/smith.jpg" alt="">
          </div>
          <div class="content">
-            <h3>Pedro</h3>
+            <h3>Smith</h3>
             <p>
-            As tarefas diárias são extremamente úteis, eu fiquei impressionado como uma organização simples fez toda a diferença na minha vida.            </p>
-         </div>
+            Daily tasks are extremely useful, I was amazed at how a simple organization made all the difference in my life. </p>         </div>
       </div>
       
       <div class="box">
@@ -196,16 +208,14 @@ a modulação com as recompensas foi uma virada de chave!!! Gostando demais até
             <img src="images/jaber.jpg" alt="">
          </div>
          <div class="content">
-            <h3>Jaber</h3>
+            <h3>Eliza</h3>
             <p>
-            Excelente o conteúdo dessas lições, tem dado um novo sentido em minha vida, estou me sentindo muito mais viva, parece que eu tirei um fardo que estava sobre os meus ombros.            </p>
-         </div>
+            The content of the lessons is excellent, it has given a new meaning to my life, I am feeling much more alive, it seems that I have taken off a burden that was on my shoulders. </p>         </div>
       </div>
 
    </div>
 
-   <div class="load-more" style="font-size: 21px;"> Você pode ser o proximo -><a class="btn">Quero me tornar aluno agora</a></a> </div>
-
+   <div class="load-more" style="font-size: 21px;"> You could be next -><a class="btn">I want to become a student now</a></a> </ div>
 </section>
 
 
@@ -213,19 +223,19 @@ a modulação com as recompensas foi uma virada de chave!!! Gostando demais até
 
 <section class="services">
 
-   <h1 class="heading-title"> A nossa mágica:
-Foco, produtividade e equilíbrio
- </h1>
+   <h1 class="heading-title"> 
+   Our magic:
+Focus, productivity and balance
+</h1>
  <div>
  <p style="font-size:22px" style="text-align: center;">
- Nós fazemos com que as pessoas se tornem mais produtivas, melhorem a sua motivação diária, e adotem novos hábitos para realizar ações que as levem a atingir seu pleno potencial e felicidade a longo prazo.
-      </p>
+ We make people more productive, improve their daily motivation, and adopt new habits to take actions that lead them to reach their full potential and long-term happiness.      </p>
 
 <br><br>
 
  <p class="copymenu2" style="font-size:20px" style="text-align: center;">
 <b>
-Mas isso só é possível por três motivos: 
+But this is only possible for three reasons:
 </b>
 </p>
 
@@ -233,45 +243,30 @@ Mas isso só é possível por três motivos:
 
  <ul>
          <li style="font-size: 14px;">
-         <b>Aulas em ritmo próprio</b> <br>
-Através de lições diárias, você conseguirá ter seu próprio ritmo e aprender tudo sobre como acalmar sua mente e equilibrar sua saúde mental. Além disso, com as lições, você conseguirá entender como seus pensamentos, emoções e comportamentos estão fortemente conectados e começará a desvendar padrões negativos com técnicas comprovadas de especialistas em terapia cognitivo comportamental.
-         </li>
+         <b>Self-paced classes</b> <br>
+Through daily lessons, you will be able to take your own pace and learn all about how to calm your mind and balance your mental health. In addition, with the lessons, you will be able to understand how your thoughts, emotions and behaviors are strongly connected and you will begin to unravel negative patterns with proven techniques from experts in cognitive behavioral therapy. </li>
       </ul>
  <ul>
          <li style="font-size: 14px;">
-         <b>Tarefas diárias fáceis</b> <br>
-         Todas as nossas atividades diárias são rápidas e eficazes, levam em média de 10 a 30 minutos para serem executadas, o que deixa a criação de hábitos saudáveis extremamente mais fáceis. Com elas você também conseguirá configurar uma rotinas matinais, noturnas e de relaxamento que trazem paz ao seu dia e aumentarão sua resiliência ao estresse e a ansiedade.
-         </li>
+         <b>Easy Daily Tasks</b> <br>
+          All of our daily activities are quick and effective, taking an average of 10 to 30 minutes to perform, which makes creating healthy habits extremely easy. With them you will also be able to set up morning, evening and relaxation routines that bring peace to your day and increase your resilience to stress and anxiety. </li>
       </ul>
  <ul>
          <li style="font-size: 14px;">
-         <b>Dicas e estratégias para criar hábitos</b> <br>
-         Pequenas mudanças repetidas diariamente são mais eficazes do que grandes mudanças repetidas uma vez. Visando essa ideia te auxiliaremos na implementação de novos hábitos com precisão cirúrgica, e você descobrirá uma maneira muito mais fácil de se auto desenvolver em menos de 4 semanas. Você verá em pouco tempo uma grande diferença, e conseguirá gerenciar gatilhos de ansiedade, tendo sempre a sensação de que está no controle.         </li>
-      </ul>
+         <b>Tips and Strategies to Create Habits</b> <br>
+          Small changes repeated daily are more effective than large changes repeated once. With this idea in mind, we will help you implement new habits with surgical precision, and you will discover a much easier way to develop yourself in less than 4 weeks. You will soon see a big difference, and you will be able to manage anxiety triggers, always having the feeling that you are in control. </li>
+         </ul>
       
 </section>
 <div>
-<h1>Obtenha seu Guia AGORA!</h1>   
-<br>
-<br>
-<container>
-   <p style="font-size:12px"
-      style="background: green"
-   
-   
-   > Essa oferta expira em: 00 00 00</p>
-</container>
-
-
 
 
 <section class="home-offer">
    <div class="content">
-      <h3>Com mais de 50% desconto</h3>
-      <p>Descubra o real segredo do sucesso de grandes atletas, celebridades e cientistas</p>
-      <a href="book.php" class="btn">Eu quero!!</a>
-      <p>Click em eu quero quero e aproveite essa mega promoção</p>
-
+   <h3>Over 50% off</h3>
+       <p>Discover the real secret to the success of great athletes, celebrities and scientists</p>
+       <a href="book.php" class="btn">I want it!!</a>
+       <p>Click I want to and enjoy this mega promotion</p>
    </div>
 </section>
 
@@ -316,8 +311,7 @@ Através de lições diárias, você conseguirá ter seu próprio ritmo e aprend
 
    </div>
 
-   <div class="credit"> Criado por <span>Bruno Costa</span></div>
-
+   <div class="credit"> Created by <span>Bruno Costa</span></div>
 </section>
 
 
