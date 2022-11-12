@@ -4,10 +4,20 @@
 <p>
 Web Application with front end - using html and css technologies, in the back end used PHP. Responsive web application that adjusts to the needs of the screen or machine it is running.
 </p>
-
-<h1>  My contact networks    </h1>
 <br>
+<p>
+Veja como o site fica em diferentes tipos de tela
+</p>
+<img src="./Optimization_mostrasi.gif">
 
+<h1 style="text-aling: center">  
+My contact networks    
+</h1>
+<br>
+<img style="width: 700px; height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto " src="./Optimization_mostrasi.gif">
 
 
    <a href="https://www.instagram.com/devbrunoo/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
