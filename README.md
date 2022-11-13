@@ -17,6 +17,20 @@ See how the site looks on different types of screens
     margin-right: auto " src="./Optimization_mostrasi.gif">
 
 <h1 style="text-aling: center">  
+To run this project in your browser
+</h1>
+<ol>
+    <li>Baize Xampp</li>
+    <li>Locate the htdocs folder</li>
+    <li>Clone the repository inside the htdocs folder</li>
+    <li>Acess your localhost or address that xampp shows</li>
+    <li>Acess the folder that you clone the repository through the browser</li>
+    <li>From the browser click on the home.php file</li>
+</ol>
+<br>
+
+
+<h1 style="text-aling: center">  
 My contact networks    
 </h1>
    <a href="https://www.instagram.com/devbrunoo/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
